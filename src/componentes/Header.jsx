@@ -1,6 +1,6 @@
 import "./Headerstyles.css"
-import { userRound} from 'lucide-react'
 import { Link } from "react-router-dom"
+import { UserRound } from 'lucide-react'
 
 function Header() {
 
@@ -13,7 +13,7 @@ function Header() {
             <Link to="/">Home</Link>
             <Link to="/Productos">Productos</Link>
             <Link to="/Dudas">Dudas</Link>
-
+            <Link to="/Login"><UserRound size={25} color="white" /></Link>
 
         </nav>
         </header>
